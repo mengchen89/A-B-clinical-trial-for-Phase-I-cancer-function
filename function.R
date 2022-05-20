@@ -225,6 +225,7 @@ threep3ABCDE.desc<-function (truep, A, B, C, D, E, dose = NULL)
     }
   }
   path.mat<-cbind(path.mat,prob,ssize,mtd) 
+  return(path.mat)
 }
  
 
